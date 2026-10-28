@@ -9,5 +9,14 @@ public enum Resources
     Copper,
     Stone,
     Energy,
-    Ammo
+    Ammo,
+    Unit
+}
+
+[System.Serializable]
+public enum UnitType
+{
+    Friend,
+    Neutral,
+    Foe
 }
